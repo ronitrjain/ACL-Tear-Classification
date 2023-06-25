@@ -1,19 +1,19 @@
-**Knee MRI ACL Tear Classifier**
+#Knee MRI ACL Tear Classifier
 This script implements a deep learning model for classifying knee MRI images as showing a torn ACL or not.
 
-**Dataset**
+#Dataset
 The dataset used for this project is the KneeMRI dataset, which consists of knee MRI images that can show whether the image shows a torn ACL or not. The dataset can be found in the kneemridataset directory.
 
-**Preprocessing**
+#Preprocessing
 The images are preprocessed using filters to remove noise and enhance the features of the image. The preprocessed images are then split into a testing and training dataset.
 
-**Model**
+#Model
 The model used for classification is a convolutional neural network (CNN) built using Keras with a TensorFlow backend. The model has been refined by adjusting the hyperparameters and increasing the learning rate to improve its performance.
 
-**Deployment**
+#Deployment
 Once the model has been trained and performs well, it can be deployed to classify new knee MRI images as either having an ACL tear or not.
 
-**Dependencies**
+#Dependencies
 The script requires the following dependencies:
 
 NumPy
@@ -23,7 +23,7 @@ Keras
 Usage
 To run the script, ensure that the kneemridataset directory is present in the same directory as the script, and run the following command:
 
-**Copy code**
+#Copy Code
 python knee_mri_classifier.py
 The script will preprocess the images, train the model, and output the results of the classification on the test dataset.
 
